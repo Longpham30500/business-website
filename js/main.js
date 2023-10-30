@@ -11,8 +11,8 @@ $(function(){
     $('.works__inner').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
-        prevArrow:'  <button class="slick-arrow slick-prev"><img src="images/icons/bluearrow_left.png" alt=""></button>',
-        nextArrow:'  <button class="slick-arrow slick-next"><img src="images/icons/bluearrow_right.png" alt=""></button>', 
+        prevArrow:'  <button class="slick-arrow slick-prev"><img src="./images/icons/bluearrow_left.png" alt=""></button>',
+        nextArrow:'  <button class="slick-arrow slick-next"><img src="./images/icons/bluearrow_right.png" alt=""></button>', 
         responsive:[
         {
             breakpoint: 911,
