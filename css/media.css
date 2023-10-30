@@ -82,12 +82,6 @@
     .download__btn{
         padding-left: 15px;
     }
-    .md-hidden{
-        display: none;
-    }
-    .works__inner{
-        justify-content: space-evenly;
-    }
 }
 
 @media ( max-width: 910px){
@@ -108,9 +102,6 @@
 }
 
 @media (max-width: 780px){
-    .slider__item--title{
-        font-size: 45px
-    }
     .clients__inner{
         flex-wrap: wrap;
     }
@@ -141,32 +132,15 @@
     .footer__item-social{
         width: 100%;
     }
-    .sm-hidden{
-        display: none;
-    }
-    .works__inner{
-        justify-content: space-evenly;
-    }
 }
 
 @media (max-width: 525px){
-    .slider__item--title{
-        font-size: 40px;
-        position: relative;
-        top: 40px;
-    }
     .item{
         padding-right: 0;
         width: 100%;
     }
     .clients-logo__images img{
         max-width: 100%;
-    }
-    .hidden{
-        display: none;
-    }
-    .works__inner{
-        justify-content: center;
     }
 }
 
@@ -181,16 +155,13 @@
 }
 
 @media (max-width: 420px){
-    .slider__item--title{
-        font-size: 35px;
-        position: relative;
-        top: 50px;
-        width: auto;
-        margin: 20px;
-        line-height: 45px;
-    }
     .download__btn a {
         width: auto;
+    }
+    .slider__item-title{
+        margin: 20px;
+        font-size: 40px;
+        line-height: 45px;
     }
     .footer__bottom{
         flex-wrap: wrap;
@@ -207,4 +178,10 @@
     }
 }
 
+
+@media ( min-width: 960px){
+    .header__menu > ul{
+        display: block !important; 
+    }
+}
 

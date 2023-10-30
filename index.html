@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>BisLite</title>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/media.css" />
 </head>
 
 <body>
-  <header id="header" class="header">
+  <header class="header">
     <div class="container">
       <div class="header__inner">
         <div class="header__logo">
@@ -26,7 +30,7 @@
             <div class="header__menu-row"></div>
             <div class="header__menu-row"></div>
           </div>
-          <ul class="header__menu-list">
+          <ul>
             <li class="hover"><a href="#">HOME</a></li>
             <li class="hover"><a href="#">ABOUT US</a></li>
             <li class="header__drop-down drop-down">
@@ -59,29 +63,37 @@
 
   <section class="slider">
     <div class="container">
-      <div class="slider__inner slick-initialized slick-slider slick-dotted">
+      <div class="slider__inner">
         <div class="slider__item">
           <div class="slider__item--title">
             We design clean, crisp & memorable icons
           </div>
         </div>
-        <ul class="slick-dots">
-          <li><button></button>
-          </li>
-          <li><button></button>
-          </li>
-          <li class="slick-active"><button></button>
-          </li>
-          <li><button></button>
-          </li>
-          <li><button></button>
-          </li>
-        </ul>
+        <div class="slider__item">
+          <div class="slider__item--title">
+            We design clean, crisp & memorable icons
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item--title">
+            We design clean, crisp & memorable icons
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item--title">
+            We design clean, crisp & memorable icons
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item--title">
+            We design clean, crisp & memorable icons
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="items">
+  <sect ion class="items">
     <div class="container">
       <div class="items__inner">
         <div class="item">
@@ -141,7 +153,7 @@
         <div class="item">
           <div class="item__title">
             <div class="item__icons">
-              <img src="./images/icons/paperplane_icon.png" alt="" />
+              <img class="telegram-icons" src="./images/icons/paperplane_icon.png" alt="" />
             </div>
             Ready for coding
           </div>
@@ -158,16 +170,12 @@
         </div>
       </div>
     </div>
-  </section>
+  </sect>
 
   <section class="works">
     <div class="container">
       <div class="works__title">
         latest works
-        <div class="slick__btn">
-          <button class="slick-prev" style=""><img src="./images/icons/bluearrow_left.png" alt=""></button>
-        <button class="slick-next" style=""><img src="./images/icons/bluearrow_right.png" alt=""></button>
-        </div>
       </div>
       <div class="works__inner">
         <div class="works__inner-item">
@@ -179,7 +187,7 @@
             </div>
           </div>
         </div>
-        <div class="works__inner-item hidden">
+        <div class="works__inner-item">
           <div class="works__inner-box">
             <img src="./images/slider/item-2.jpg" alt="" />
             <div class="works__inner-link">
@@ -188,7 +196,7 @@
             </div>
           </div>
         </div>
-        <div class="works__inner-item sm-hidden">
+        <div class="works__inner-item">
           <div class="works__inner-box">
             <img src="./images/slider/item-3.jpg" alt="" />
             <div class="works__inner-link">
@@ -197,7 +205,81 @@
             </div>
           </div>
         </div>
-        <div class="works__inner-item md-hidden">
+        <div class="works__inner-item">
+          <div class="works__inner-box">
+            <img src="./images/slider/item-4.jpg" alt="" />
+            <div class="works__inner-link">
+              <a href="#"><img src="images/slider/optic.png" alt="" /></a>
+              <a href="#"><img src="images/slider/link.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="works__inner-item">
+          <div class="works__inner-box">
+            <img src="./images/slider/item-1.jpg" alt="" />
+            <div class="works__inner-link">
+              <a href="#"><img src="images/slider/optic.png" alt="" /></a>
+              <a href="#"><img src="images/slider/link.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="works__inner-item">
+          <div class="works__inner-box">
+            <img src="./images/slider/item-2.jpg" alt="" />
+            <div class="works__inner-link">
+              <a href="#"><img src="images/slider/optic.png" alt="" /></a>
+              <a href="#"><img src="images/slider/link.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="works__inner-item">
+          <div class="works__inner-box">
+            <img src="./images/slider/item-3.jpg" alt="" />
+            <div class="works__inner-link">
+              <a href="#"><img src="images/slider/optic.png" alt="" /></a>
+              <a href="#"><img src="images/slider/link.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="works__inner-item">
+          <div class="works__inner-box">
+            <img src="./images/slider/item-4.jpg" alt="" />
+            <div class="works__inner-link">
+              <a href="#"><img src="images/slider/optic.png" alt="" /></a>
+              <a href="#"><img src="images/slider/link.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="works__inner-item">
+          <div class="works__inner-box">
+            <img src="./images/slider/item-1.jpg" alt="" />
+            <div class="works__inner-link">
+              <a href="#"><img src="images/slider/optic.png" alt="" /></a>
+              <a href="#"><img src="images/slider/link.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="works__inner-item">
+          <div class="works__inner-box">
+            <img src="./images/slider/item-2.jpg" alt="" />
+            <div class="works__inner-link">
+              <a href="#"><img src="images/slider/optic.png" alt="" /></a>
+              <a href="#"><img src="images/slider/link.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="works__inner-item">
+          <div class="works__inner-box">
+            <img src="./images/slider/item-3.jpg" alt="" />
+            <div class="works__inner-link">
+              <a href="#"><img src="images/slider/optic.png" alt="" /></a>
+              <a href="#"><img src="images/slider/link.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="works__inner-item">
           <div class="works__inner-box">
             <img src="./images/slider/item-4.jpg" alt="" />
             <div class="works__inner-link">
@@ -312,10 +394,10 @@
           </div>
           <ul class="footer__social">
             <li>
-              <a href="#"><img src="./images/social/item-1.png" alt="" /></a>
+              <a href="#"><img src="./images/social/item-2.png" alt="" /></a>
             </li>
             <li>
-              <a href="#"><img src="./images/social/item-2.png" alt="" /></a>
+              <a href="#"><img src="./images/social/item-1.png" alt="" /></a>
             </li>
             <li>
               <a href="#"><img src="./images/social/item-3.png" alt="" /></a>
@@ -344,6 +426,9 @@
     </div>
   </footer>
 
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
